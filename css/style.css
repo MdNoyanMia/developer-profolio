@@ -1,0 +1,926 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+body {
+    background: #070824;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+
+}
+
+/*  */
+
+.logu {
+    width: 10%;
+}
+
+.menu {
+    width: 70%;
+    text-align: right;
+}
+
+.btn {
+    width: 20%;
+
+}
+
+.btn .btnc {
+    background: transparent;
+    border: 1px solid rgba(102, 68, 68, 0.527);
+    border-radius: 20px;
+    padding: 10px 25px;
+    color: #93F2FF;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    transition: .4s;
+
+
+}
+
+
+.btn .btnc:hover {
+    background: #93F2FF;
+    color: black;
+}
+
+/*  */
+
+#header {
+    padding: 60px 0;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #D7D9FF;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    transition: .4s;
+    position: relative;
+
+}
+
+.menu ul li a::before {
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    background-image: linear-gradient(to right, #090925, #93F2FF, #090925);
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.menu ul li a:hover {
+    color: #93F2FF;
+}
+
+.menu ul li a:hover::before {
+    opacity: 1;
+    visibility: visible;
+    width: 50px;
+}
+
+/* section 1 ses */
+/*  */
+
+.bannerflex {
+    display: flex;
+    align-items: center;
+}
+
+.bannerleft {
+    width: 60%;
+    padding-left: 80px;
+
+}
+
+.bannerrigth {
+    width: 40%;
+
+}
+
+.bannerrigth img {
+    display: block;
+}
+
+.bannerleft h1 span {
+    color: #93F2FF;
+}
+
+.bannerleft h1 {
+    color: #D7D9FF;
+    font-size: 70px;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+/*  */
+.bannerleft h3 {
+    color: #D7D9FF;
+    font-size: 16px;
+    width: 190px;
+    height: 25px;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+
+
+
+}
+
+
+/* .bannerleft h3::after {
+   position: absolute;
+        width: 10px;
+        height: 5px;
+        bottom:0;
+        left: 50%;
+        transform: translateX(-50%);
+        content: "";
+        color:red ; */
+
+.hhk {
+    display: flex;
+}
+
+
+.hhk i {
+    background: transparent;
+    border: 1px solid rgba(102, 68, 68, 0.527);
+    border-radius: 20px;
+    padding: 5px 10px;
+    ;
+    color: white;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.hhk .bnn i {
+    background: #5a5757de;
+    border-radius: 20px;
+}
+
+
+
+.bannerleft .hjh {
+    color: aliceblue;
+    padding: 10px 10px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    position: absolute;
+    margin-top: 70px;
+
+
+}
+
+.bnbb {
+    color: aliceblue;
+    padding: 10px 10px;
+    border-radius: 50px;
+    background: #93F2FF;
+    color: #070824;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 200px;
+
+
+}
+
+.hghg {
+    color: white;
+    margin-top: 130px;
+    padding: 0 10px;
+
+    position: absolute;
+
+}
+
+i {
+    padding: 5px 10px;
+    border-radius: 50px;
+    background: #404042;
+    border: 1px solid black;
+}
+
+.bannerleft .bnbb {}
+
+.bannercart {
+    background: url(../images/Banner\ Area.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+
+}
+
+/* section 3 */
+
+#boxpart {
+    padding: 55px 0;
+    
+}
+
+.hghty h4 {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+.hghty h3 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    line-height: 60px;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+.rowf {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div {
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.kkk1 {
+    width: 418.27px;
+    height: 422.71px;
+    background: url(../images/Rectangle\ 4649.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+}
+
+.kkk1 img {
+    position: absolute;
+    top: 25%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+}
+
+
+.kkk1 h3 {
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+    color: white;
+    font-size: 21.55px;
+    font-family: "Montserrat", sans-serif;
+    width: 270px;
+    height: 26px;
+}
+
+.kkk1 h5 {
+    position: absolute;
+    top: 65%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+    color: #D7D9FF;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    width: 297.23px;
+    height: 84px;
+}
+
+/*  */
+.kkk2 {
+    width: 418.27px;
+    height: 422.71px;
+    background: url(../images/Rectangle\ 4649.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+/*  */
+
+
+
+.kkk2 img {
+    position: absolute;
+    top: 25%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+}
+
+
+.kkk2 h3 {
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+    color: white;
+    font-size: 21.55px;
+    font-family: "Montserrat", sans-serif;
+    width: 209px;
+    height: 25px;
+    line-height: 24.6px;
+}
+
+.kkk2 h5 {
+    position: absolute;
+    top: 65%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+    color: #D7D9FF;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    width: 297.23px;
+    height: 84px;
+}
+
+/*  */
+.kkk3 {
+    width: 418.27px;
+    height: 422.71px;
+    background: url(../images/Rectangle\ 4649.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+/*  */
+
+
+
+
+.kkk3 img {
+    position: absolute;
+    top: 25%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+}
+
+
+.kkk3 h3 {
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+    color: white;
+    font-size: 21.55px;
+    font-family: "Montserrat", sans-serif;
+    width: 231px;
+    height: 25px;
+}
+
+.kkk3 h5 {
+    position: absolute;
+    top: 65%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+    color: #D7D9FF;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    width: 297.23px;
+    height: 84px;
+}
+
+/* div end */
+/* div222 start */
+
+
+
+.div01 {
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.kkk11 {
+    width: 418.27px;
+    height: 422.71px;
+    background: url(../images/Rectangle\ 4649.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+}
+
+.kkk11 img {
+    position: absolute;
+    top: 25%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+}
+
+
+.kkk11 h3 {
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+    color: white;
+    font-size: 21.55px;
+    font-family: "Montserrat", sans-serif;
+    width: 306px;
+    height: 25px;
+}
+
+.kkk11 h5 {
+    position: absolute;
+    top: 65%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+    color: #D7D9FF;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    width: 297.23px;
+    height: 84px;
+}
+
+/*  */
+.kkk22 {
+    width: 418.27px;
+    height: 422.71px;
+    background: url(../images/Rectangle\ 4649.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+/*  */
+
+
+
+.kkk22 img {
+    position: absolute;
+    top: 25%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+}
+
+
+.kkk22 h3 {
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+    color: white;
+    font-size: 21.55px;
+    font-family: "Montserrat", sans-serif;
+    width: 279px;
+    height: 25px;
+    line-height: 24.6px;
+}
+
+.kkk22 h5 {
+    position: absolute;
+    top: 65%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+    color: #D7D9FF;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    width: 297.23px;
+    height: 84px;
+}
+
+/*  */
+.kkk33 {
+    width: 418.27px;
+    height: 422.71px;
+    background: url(../images/Rectangle\ 4649.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+/*  */
+
+
+
+
+.kkk33 img {
+    position: absolute;
+    top: 25%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+
+}
+
+
+.kkk33 h3 {
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+    color: white;
+    font-size: 21.55px;
+    font-family: "Montserrat", sans-serif;
+    width: 272px;
+    height: 25px;
+
+}
+
+.kkk33 h5 {
+    position: absolute;
+    top: 65%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+    color: #D7D9FF;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    width: 297.23px;
+    height: 84px;
+
+}
+
+/* section3end */
+
+/* section4start */
+#Awesome {
+    padding: 50px 0;
+ 
+}
+.my{
+    position: relative;
+}
+.my h5 {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+.my h3 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    line-height: 60px;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+.aa {
+display: flex;
+
+width: 952px ;
+padding-top: 20px;
+padding-left: 280px;
+
+}
+
+.aa a {
+    color: rgb(237, 225, 225);
+    align-items: center;
+    font-size: 16px;
+    line-height: 10px;
+    font-family: "Montserrat", sans-serif;
+    padding: 15px 15px;
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid black;
+    margin: 0 20px;
+    transition: .4s;
+   
+
+
+}
+.aa a:hover{
+    background: #93F2FF;
+    color: #070824;
+}
+
+/*  */
+.bnm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lkl img{
+    padding: 40px 0;
+}
+
+.lkl h5{
+    color: white;
+    line-height: 14px;
+    width: 300px;
+    height: 20px;
+    font-family: "Poppins", sans-serif;
+    line-height: 20px;
+}
+
+.lkl h3{
+    color: white;
+    font-size: 34px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 52px;
+    width: 645px;
+    height: 104px;
+}
+
+
+
+/*  */
+
+.lkl2 img{
+    padding: 40px 0;
+}
+/*  */
+.lkl2 h5{
+    color: white;
+    line-height: 14px;
+    width: 300px;
+    height: 20px;
+    font-family: "Poppins", sans-serif;
+    line-height: 20px;
+}
+
+.lkl2 h3{
+    color: white;
+    font-size: 34px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 52px;
+    width: 645px;
+    height: 104px;
+}
+/*  */
+
+.bnm22{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lkl22 img{
+    padding: 40px 0;
+}
+
+.lkl22 h5{
+    color: white;
+    line-height: 14px;
+    width: 300px;
+    height: 20px;
+    font-family: "Poppins", sans-serif;
+    line-height: 20px;
+}
+
+.lkl22 h3{
+    color: white;
+    font-size: 34px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 52px;
+    width: 645px;
+    height: 104px;
+}
+
+
+
+/*  */
+.lkl222 img{
+    padding: 40px 0;
+}
+/*  */
+.lkl222 h5{
+    color: white;
+    line-height: 14px;
+    width: 300px;
+    height: 20px;
+    font-family: "Poppins", sans-serif;
+    line-height: 20px;
+}
+
+.lkl222 h3{
+    color: white;
+    font-size: 34px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 52px;
+    width: 645px;
+    height: 104px;
+}
+/* section4end */
+
+
+
+
+/* section5start*/
+
+#hhhjjhjjh{
+    padding: 50px 0;
+    background: url(../images/yyyy.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+}
+
+
+
+
+
+/*  */
+.mytt{
+    position: relative;
+    padding: 60px;
+}
+.mytt h5 {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+.mytt h3 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    line-height: 60px;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+
+/* hhjkjhskkjjkkfggkj */
+
+
+.klklk {
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.kkkoo1{
+    background: url(../images/bjbjbg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 195px;
+    height: 167.7px;
+    position: relative;
+}
+/*  */
+
+.kkkoo1 img {
+    position: absolute;
+    top: 37%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+
+}
+
+
+
+.kkkoo2{
+    background: url(../images/bjbjbg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 195px;
+    height: 167.7px;
+
+    position: relative;
+}
+.kkkoo2 img {
+    position: absolute;
+    top: 37%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+
+}
+.kkkoo3{
+    background: url(../images/bjbjbg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 195px;
+    height: 167.7px;
+    position: relative;
+}
+.kkkoo3 img {
+    position: absolute;
+    top: 37%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+
+}
+.kkkoo4{
+    background: url(../images/bjbjbg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 195px;
+    height: 167.7px;
+    position: relative;
+}
+.kkkoo4 img {
+    position: absolute;
+    top: 37%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+
+}
+.kkkoo5{
+    background: url(../images/bjbjbg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 195px;
+    height: 167.7px;
+    position: relative;
+}
+.kkkoo5 img {
+    position: absolute;
+    top: 37%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+
+}
+.kkkoo6{
+    background: url(../images/bjbjbg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 195px;
+    height: 167.7px;
+    position: relative;
+}
+.kkkoo6 img {
+    position: absolute;
+    top: 37%;
+    left: 44%;
+    transform: translate(-30%, -44%);
+
+}
+
+
+
+
+
+
+
+/* section5 end*/
