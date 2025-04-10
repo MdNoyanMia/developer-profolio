@@ -249,7 +249,7 @@ i {
 
 #boxpart {
     padding: 55px 0;
-    
+
 }
 
 .hghty h4 {
@@ -596,11 +596,13 @@ i {
 /* section4start */
 #Awesome {
     padding: 50px 0;
- 
+
 }
-.my{
+
+.my {
     position: relative;
 }
+
 .my h5 {
     color: white;
     text-align: center;
@@ -622,11 +624,11 @@ i {
 }
 
 .aa {
-display: flex;
+    display: flex;
 
-width: 952px ;
-padding-top: 20px;
-padding-left: 280px;
+    width: 952px;
+    padding-top: 20px;
+    padding-left: 280px;
 
 }
 
@@ -642,26 +644,27 @@ padding-left: 280px;
     border: 1px solid black;
     margin: 0 20px;
     transition: .4s;
-   
+
 
 
 }
-.aa a:hover{
+
+.aa a:hover {
     background: #93F2FF;
     color: #070824;
 }
 
 /*  */
-.bnm{
+.bnm {
     display: flex;
     justify-content: space-between;
 }
 
-.lkl img{
+.lkl img {
     padding: 40px 0;
 }
 
-.lkl h5{
+.lkl h5 {
     color: white;
     line-height: 14px;
     width: 300px;
@@ -670,7 +673,7 @@ padding-left: 280px;
     line-height: 20px;
 }
 
-.lkl h3{
+.lkl h3 {
     color: white;
     font-size: 34px;
     font-family: "Montserrat", sans-serif;
@@ -683,11 +686,12 @@ padding-left: 280px;
 
 /*  */
 
-.lkl2 img{
+.lkl2 img {
     padding: 40px 0;
 }
+
 /*  */
-.lkl2 h5{
+.lkl2 h5 {
     color: white;
     line-height: 14px;
     width: 300px;
@@ -696,7 +700,7 @@ padding-left: 280px;
     line-height: 20px;
 }
 
-.lkl2 h3{
+.lkl2 h3 {
     color: white;
     font-size: 34px;
     font-family: "Montserrat", sans-serif;
@@ -704,18 +708,19 @@ padding-left: 280px;
     width: 645px;
     height: 104px;
 }
+
 /*  */
 
-.bnm22{
+.bnm22 {
     display: flex;
     justify-content: space-between;
 }
 
-.lkl22 img{
+.lkl22 img {
     padding: 40px 0;
 }
 
-.lkl22 h5{
+.lkl22 h5 {
     color: white;
     line-height: 14px;
     width: 300px;
@@ -724,7 +729,7 @@ padding-left: 280px;
     line-height: 20px;
 }
 
-.lkl22 h3{
+.lkl22 h3 {
     color: white;
     font-size: 34px;
     font-family: "Montserrat", sans-serif;
@@ -736,11 +741,12 @@ padding-left: 280px;
 
 
 /*  */
-.lkl222 img{
+.lkl222 img {
     padding: 40px 0;
 }
+
 /*  */
-.lkl222 h5{
+.lkl222 h5 {
     color: white;
     line-height: 14px;
     width: 300px;
@@ -749,7 +755,7 @@ padding-left: 280px;
     line-height: 20px;
 }
 
-.lkl222 h3{
+.lkl222 h3 {
     color: white;
     font-size: 34px;
     font-family: "Montserrat", sans-serif;
@@ -757,6 +763,7 @@ padding-left: 280px;
     width: 645px;
     height: 104px;
 }
+
 /* section4end */
 
 
@@ -764,7 +771,7 @@ padding-left: 280px;
 
 /* section5start*/
 
-#hhhjjhjjh{
+#hhhjjhjjh {
     padding: 50px 0;
     background: url(../images/yyyy.png);
     background-position: center;
@@ -778,10 +785,11 @@ padding-left: 280px;
 
 
 /*  */
-.mytt{
+.mytt {
     position: relative;
     padding: 60px;
 }
+
 .mytt h5 {
     color: white;
     text-align: center;
@@ -814,7 +822,8 @@ padding-left: 280px;
 
 
 }
-.kkkoo1{
+
+.kkkoo1 {
     background: url(../images/bjbjbg.png);
     background-position: center;
     background-size: cover;
@@ -823,6 +832,7 @@ padding-left: 280px;
     height: 167.7px;
     position: relative;
 }
+
 /*  */
 
 .kkkoo1 img {
@@ -834,8 +844,21 @@ padding-left: 280px;
 }
 
 
+/*  */
+.kkkoo1 h5 {
+    position: absolute;
+    top: 80%;
+    left: 44%;
+    transform: translate(-30%, -80%);
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 24px;
 
-.kkkoo2{
+}
+
+
+.kkkoo2 {
     background: url(../images/bjbjbg.png);
     background-position: center;
     background-size: cover;
@@ -845,6 +868,7 @@ padding-left: 280px;
 
     position: relative;
 }
+
 .kkkoo2 img {
     position: absolute;
     top: 37%;
@@ -852,7 +876,22 @@ padding-left: 280px;
     transform: translate(-30%, -44%);
 
 }
-.kkkoo3{
+
+/*  */
+
+.kkkoo2 h5 {
+    position: absolute;
+    top: 80%;
+    left: 44%;
+    transform: translate(-30%, -80%);
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 24px;
+
+}
+
+.kkkoo3 {
     background: url(../images/bjbjbg.png);
     background-position: center;
     background-size: cover;
@@ -861,6 +900,7 @@ padding-left: 280px;
     height: 167.7px;
     position: relative;
 }
+
 .kkkoo3 img {
     position: absolute;
     top: 37%;
@@ -868,7 +908,20 @@ padding-left: 280px;
     transform: translate(-30%, -44%);
 
 }
-.kkkoo4{
+
+.kkkoo3 h5 {
+    position: absolute;
+    top: 80%;
+    left: 44%;
+    transform: translate(-30%, -80%);
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 24px;
+
+}
+
+.kkkoo4 {
     background: url(../images/bjbjbg.png);
     background-position: center;
     background-size: cover;
@@ -877,6 +930,7 @@ padding-left: 280px;
     height: 167.7px;
     position: relative;
 }
+
 .kkkoo4 img {
     position: absolute;
     top: 37%;
@@ -884,7 +938,22 @@ padding-left: 280px;
     transform: translate(-30%, -44%);
 
 }
-.kkkoo5{
+
+
+
+.kkkoo4 h5 {
+    position: absolute;
+    top: 80%;
+    left: 44%;
+    transform: translate(-30%, -80%);
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 24px;
+
+}
+
+.kkkoo5 {
     background: url(../images/bjbjbg.png);
     background-position: center;
     background-size: cover;
@@ -893,6 +962,7 @@ padding-left: 280px;
     height: 167.7px;
     position: relative;
 }
+
 .kkkoo5 img {
     position: absolute;
     top: 37%;
@@ -900,7 +970,21 @@ padding-left: 280px;
     transform: translate(-30%, -44%);
 
 }
-.kkkoo6{
+
+
+.kkkoo5 h5 {
+    position: absolute;
+    top: 80%;
+    left: 44%;
+    transform: translate(-30%, -80%);
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 24px;
+
+}
+
+.kkkoo6 {
     background: url(../images/bjbjbg.png);
     background-position: center;
     background-size: cover;
@@ -909,6 +993,7 @@ padding-left: 280px;
     height: 167.7px;
     position: relative;
 }
+
 .kkkoo6 img {
     position: absolute;
     top: 37%;
@@ -917,10 +1002,149 @@ padding-left: 280px;
 
 }
 
+.kkkoo6 h5 {
+    position: absolute;
+    top: 80%;
+    left: 44%;
+    transform: translate(-30%, -80%);
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 24px;
+
+}
+
+
+/*  */
+.kkkklq {
+    background: url(../images/Group\ 864.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 645px;
+    height: 431px;
+    position: relative;
+
+}
+
+.kkkklq h3 {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-30%, -80%);
+    color: white;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 37px;
+}
+
+/*  */
+.mmm {
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    transform: translate(-40%, -43%);
+    color: white;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    line-height: 18px;
 
 
 
+}
+
+.mmm {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+
+}
+
+.gjgj {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 24px;
+    position: absolute;
+    top: 46%;
+    left: 41%;
+    transform: translate(-46%, -41%);
+    width: 331px;
+    height: 25px;
+    color: white;
+
+
+}
+
+/*  */
+.lk {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    line-height: 20px;
+    position: absolute;
+    top: 53%;
+    left: 32%;
+    transform: translate(-53%, -32%);
+    width: 180px;
+    height: 20px;
+    color: white;
+
+}
 
 
 
 /* section5 end*/
+
+
+
+.mmm2 {
+    position: relative;
+    top: 40%;
+    left: 43%;
+    transform: translate(-40%, -43%);
+    color: white;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    line-height: 18px;
+
+
+
+}
+
+.mmm2 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+
+}
+
+.gjgj2 {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 24px;
+    position: absolute;
+    top: 1285%;
+    left: 13%;
+    transform: translate(-1285%, -13%);
+    width: 331px;
+    height: 25px;
+    color: white;
+
+
+}
+
+/*  */
+.lk2 {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    line-height: 20px;
+    position: absolute;
+    top: 53%;
+    left: 32%;
+    transform: translate(-53%, -32%);
+    width: 180px;
+    height: 20px;
+    color: white;
+
+}
