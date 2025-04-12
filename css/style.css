@@ -2317,7 +2317,7 @@ body {
 
 
     background: #7d7d83;
-    color: white;
+    color: black;
     font-size: 20px;
     width: 43%;
     height: 45px;
@@ -2330,7 +2330,7 @@ body {
     margin: 0 20px;
     font-size: 30px;
     background: #7d7d83;
-    color: white;
+    color: black;
     font-size: 20px;
     width: 43%;
     height: 45px;
@@ -2343,7 +2343,7 @@ body {
     font-size: 20px;
     width: 90%;
     height: 45px;
-    color: white;
+    color: black;
 }
 
 .inpt4 {
@@ -2351,7 +2351,7 @@ body {
     font-size: 20px;
     width: 90%;
     height: 45px;
-    color: white;
+    color: black;
 }
 
 .inpt5 {
@@ -2359,7 +2359,7 @@ body {
     font-size: 20px;
     width: 90%;
     height: 170px;
-    color: white;
+    color: black;
 }
 
 .hgfdsg {
