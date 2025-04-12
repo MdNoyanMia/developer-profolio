@@ -2316,8 +2316,8 @@ body {
 .inpt1 {
 
 
-    background: #7d7d83;
-    color: red;
+    background: #171718;
+    color: white;
     font-size: 20px;
     width: 43%;
     height: 45px;
@@ -2329,8 +2329,8 @@ body {
 .inpt2 {
     margin: 0 20px;
     font-size: 30px;
-    background: #7d7d83;
-    color: red;
+    background: #171718;
+    color: white;
     font-size: 20px;
     width: 43%;
     height: 45px;
@@ -2339,27 +2339,30 @@ body {
 
 
 .inpt3 {
-    background: #7d7d83;
+    background: #171718;
+    color: white;
     font-size: 20px;
     width: 90%;
     height: 45px;
-    color: red;
+  
 }
 
 .inpt4 {
-    background: #7d7d83;
+    background: #171718;
+    color: white;
     font-size: 20px;
     width: 90%;
     height: 45px;
-    color: red;
+   
 }
 
 .inpt5 {
-    background: #7d7d83;
+    background: #171718;
+    color: white;
     font-size: 20px;
     width: 90%;
     height: 170px;
-    color: red;
+   
 }
 
 .hgfdsg {
